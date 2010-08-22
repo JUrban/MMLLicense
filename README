@@ -7,3 +7,20 @@ FLA.ccasa.en.xhtml    ..... The original FSFE Fiduciary License Agreement (FLA) 
 
 
 Mizar_FLA.*    ..... The FSFE Fiduciary License Agreement modified for Mizar (AMU)
+
+
+Comments:
+ 
+JU: I now think there should be two versions of the AMU FLA: one
+    allowing only free open source relicensing, and another one
+    allowing also parallel commercial relicensing. I think it might be
+    good to allow AMU to provide commercial licensing in special and
+    important cases, however I also think that some authors might not
+    agree with me. It would be bad to lose such authors for the (very
+    likely needed in the future) changes of the free licensing. Note
+    that for example Arxiv also allows the authors to select between
+    several licenses when submitting. We would allow them to choose
+    between two FLAs. Practically, we will now dual-license under GPL
+    and CC-BY-SA.
+
+
