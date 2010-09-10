@@ -187,3 +187,34 @@ Similarly, if you submit a new article to the MML, the special
 permission applies only to your original version (plus any enhancement
 you make), not to any version that includes any change by another
 contributor.
+
+
+May I distribute a printed version of (part of) the MML?
+
+Yes, and e.g. a PDF counts as "printed version", but you must:
+
+1) Give people an electronic copy of the MML in source form (preferred
+   form for modification) on a medium customary at the time, or a
+   URL/URI to a free of charge download link for the MML in source
+   format. If you print the unmodified MML, this can be a link to the
+   (version of the MML you print) hosted at mizar.org, or any other
+   download server, such as your own. If you modified the MML before
+   printing, you have to organise your own download service.
+
+2) Mention the SUM copyright, and state that the articles are free to
+   use / modify / redistribute under the GPL and/or the CC-BY-SA,
+   and include a copy of the GPL and/or CC-BY-SA, or at least the URL
+   to the license(s).
+
+3) Effectively allow people to exercise their rights. E.g., you may
+   not use DRM techniques or anti-photocopy backgrounds to keep people
+   from further distributing / sharing / copying the printed version.
+
+   If you e.g. publish a MML article as part of a journal, this
+   restriction does not apply to your whole journal, nor the whole
+   issue in which the MML article appears, only the MML article
+   itself.
+
+You are not legally obligated to publish the pretty-printing program
+you used (if any), but it would be appreciated if you did and licensed
+it under a Free / Open Source license.
