@@ -37,6 +37,11 @@ What do I have to do if I want to redistribute (part of) the MML,
 modified or augmented, or an article that invokes (a) theorem(s) /
 notation(s) / scheme(s) / ... from the MML?
 
+These instructions assume you do not wish to assign copyright of your
+work to the SUM.
+
+0) Don't remove or alter the SUM copyright notice.
+
 1) Add to the header of the file:
 
    Copyright © YEAR_OF_MODIFICATION YOUR NAME <your_email@example.org>
@@ -62,6 +67,11 @@ notation(s) / scheme(s) / ... from the MML?
     (Conway) numbers"
 
 4) Include the files COPYING.* in what you redistribute.
+
+The likely (and intended) effect of this is that sooner or later your
+modifications will become public, even if you choose to distribute it
+to precious few: some of them will redistribute to someone that will
+redistribute, ... and someone in the chain will just make it public.
 
 
 What do I have to do if I want my enhancements to go into the
