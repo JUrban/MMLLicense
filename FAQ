@@ -1,0 +1,95 @@
+Who owns the MML?
+
+The owner, as far as copyright is concerned, of the MML is the SUM
+(Association of Mizar Users). However, the MML permits other people to
+use and redistribute the MML, under some conditions.
+
+Each contributor also gets special permission to do anything he
+wished, without any condition, with his own contribution.
+
+
+Who can use the MML?
+
+Anybody can use the MML for any purpose whatsoever without any
+restriction nor obligation, as long as "use" does not include
+redistributing (giving a copy) of the MML, or any article using the
+MML, to any third party.
+
+"Using" the MML typically entails using definitions / theorems /
+schemas / notations / ... from the MML to write new proofs, or to
+modify definitions / proofs / ... in the MML.
+
+
+What do I have to do if I want to redistribute the MML, or part
+thereof, unmodified?
+
+You have to inform the people you give the MML to of their rights and
+obligations. Specifically, include the files COPYING.* in the copy you
+redistribute. You may not forbid other people to exercise the rights
+given to them by the SUM.
+
+
+What do I have to do if I want to redistribute the MML, or part
+thereof, modified or augmented?
+
+1) Add to the header of the file:
+
+   Copyright © YEAR_OF_MODIFICATION YOUR NAME <your_email@example.org>
+
+   If your employer owns your work, that would be:
+
+   Copyright © YEAR_OF_MODIFICATION YOUR_EMPLOYER <employer_email@example.org>
+
+2) You have to give others the same rights you got, that is you have
+   to license your modifications and your new articles under the GNU
+   GPL v3 (or later), the Creative Commons BY-SA v3 (or later), or
+   (preferably) both.
+
+   If your employer owns your work, this requires his/her permission.
+
+3) Include the files COPYING.* in what you redistribute.
+
+
+What do I have to do if I want my enhancements to go into the
+"official" version of the MML, distributed by mizar.org?
+
+1) Sign the Fiduciary Licensing Agreement, if you have not already
+   done so.
+
+   If you live in France, sign the FLA again even if you did so in the
+   past.
+
+2) Update the copyright line to include the current year. E.g. for
+   modifications you did in 2010, change
+
+   Copyright © 1989-1995 Association of Mizar Users
+                         (Stowarzyszenie Uzytkownikow Mizara, Białystok, Poland).
+
+   to
+
+   Copyright © 1989-1995,2010 Association of Mizar Users
+                         (Stowarzyszenie Uzytkownikow Mizara, Białystok, Poland).
+
+   or
+
+   Copyright © 1989-2009 Association of Mizar Users
+                         (Stowarzyszenie Uzytkownikow Mizara, Białystok, Poland).
+
+   to
+
+   Copyright © 1989-2010 Association of Mizar Users
+                         (Stowarzyszenie Uzytkownikow Mizara, Białystok, Poland).
+
+   For new articles, put in the header:
+
+   Copyright © 2010 Association of Mizar Users
+                         (Stowarzyszenie Uzytkownikow Mizara, Białystok, Poland).
+
+3) Send the FLA, along with your enhancements to the MML, to the Mizar
+   project.
+
+
+Can I write and distribute a program that has the MML inside (as a
+parse tree, as a memory dump, ...) and have that TODO non-free?
+
+TODO: no, unless program is GPL/CC-BY-SA itself.

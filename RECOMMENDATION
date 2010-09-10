@@ -1,0 +1,128 @@
+The licensing committee for the Mizar Mathematical Library makes the
+following recommendations:
+
+Raw recommendation:
+
+ - Future contributors should sign the attached Mizar_FLA.{tex,pdf}
+
+ - The MML should be dual-licensed under the GNU GPL v3 or later
+   and CC BY-SA v3 or later.
+
+   Each file should have as a header (with the years adapted, of
+   course):
+
+   Copyright © 1989-2010 Association of Mizar Users
+                         (Stowarzyszenie Uzytkownikow Mizara, Białystok, Poland).
+   This code can be distributed under the GNU General Public Licence
+   version 3.0 or later, or the Creative Commons
+   Attribution-ShareAlike License version 3.0 or later,
+   subject to the binding interpretation detailed in file
+   COPYING.interpretation.
+   See COPYING.GPL and COPYING.CC-BY-SA for the full text of these
+   licenses, or see http://www.gnu.org/licenses/gpl.html and
+   http://creativecommons.org/licenses/by-sa/3.0/
+
+ - The file COPYING.interpretation shall contain the following text:
+
+   For the purposes of the GNU GPL, it is understood that an article A
+   using another article B (by means of environment commands such as
+   vocabularies, notations, constructors, registrations, requirements,
+   definitions, theorems or schemes) is "linked to" and "combined with"
+   B.
+
+   For the purposes of the CC-BY-SA license, it is understood that an
+   article A using another article B (by means of environment commands
+   such as vocabularies, notations, constructors, registrations,
+   requirements, definitions, theorems or schemes) is an "adaptation" of
+   article B.
+
+ - As we ask for copyright assignment to the SUM of contributions, it
+   is important that the SUM be seen as trusted by the community. An
+   open organisation, that contributors can think of as "us" as
+   opposed to "them", will tend to be much more trusted by the
+   contributors. Therefore, it would be very beneficial that:
+
+   * The bylaws of the SUM be easy to find, translated in the major
+     languages used for mathematics, science and technology
+     (currently, that is English).
+
+     We take note that this is already the case, at
+     http://mizar.org/sum/statute.new.html, provided these are
+     up-to-date.
+
+   * The contributors, as a community, feel in control of the
+     SUM. Membership should thus stay relatively open to contributors
+     and voting on important matters should be easy,
+     e.g. internet-based.
+
+
+Explanation:
+
+ - The Mizar project should keep its current policy of copyright
+   assignment to the Association of Mizar Users (Stowarzyszenie
+   Uzytkownikow Mizara, SUM) for contributions to the MML.
+
+   This is mainly to allow the license to easily change if it become
+   useful in the future.
+
+   However, we recommend that the copyright assignment be linked to a
+   pledge of the SUM to maintain free / open source licensing of the
+   MML forever in the future. This pledge is not meant to forbid the
+   SUM to sell commercial licenses as an alternative for people that
+   do not want to obey the free / open source license.
+
+   To that effect, we recommend the attached "Mizar_FLA.{tex,pdf}" to
+   become the standard copyright assignment agreement that
+   contributors sign. It is adapted from one made by real lawyers for
+   the Free Software Foundation Europe, and meant for broad
+   applicability in European jurisdictions. As such, we believe it
+   will be good for the SUM's polish jurisdiction.
+
+   The link to free / open source license serves two related purposes:
+
+   * It reassures the contributors that their contribution will be
+     available for free study, use, etc by humankind (the ultimate
+     purpose of science).
+
+   * It protects the community / humanity from a potential future
+     infiltrated SUM; if the SUM "misbehaves" gravely 50 years from
+     now, the MML is essentially handed back to the community.
+
+ - The MML should be dual-licensed under the GNU GPL v3 or later
+   and CC BY-SA v3 or later.
+
+   As MML articles are both:
+
+   * "documents" at least partially meant for human consumption
+
+   * "code" meant for interpretation by computer programs
+
+   we recommend to license the MML under one license ordinarily used
+   for documents (CC-BY-SA) and one license ordinarily used for code
+   (GNU GPL).
+
+ - The GNU GPL and CC BY-SA shall be interpreted so that their
+   "copyleft / share-alike" mechanism is triggered by any use of the
+   MML.
+
+   This means that anybody using the MML in a work that he/she
+   redistributes must apply the GNU GPL or the CC BY-SA to his work,
+   too. Unless he gets special authorisation from the SUM, which the
+   SUM could for example sell him, or give on a case-by-case basis
+   without charge, if that use advances the development of science and
+   its free availability to all humankind.
+
+   People that use the MML to make new proofs, but don't show them to
+   anyone are not subject to any obligation. So e.g. if Intel wants to
+   use Mizar (instead of HOL Light, as they currently partially do) to
+   prove (parts of) their processors correct as part of their internal
+   Quality Assurance process, they can do so without any
+   restriction or obligation. But if they want to show (give a copy
+   of) their proofs to other people (e.g. to convince them to buy
+   Intel processors), they have to allow these people to change the
+   proofs (e.g. to prove AMD processors correct) and to redistribute
+   them further. If Intel wants to avoid that obligation (so that AMD
+   does not benefit from their work), they can ask the SUM for
+   permission, for which the SUM could require payment; a kind of
+   "does not play by the rules of science" tax, similar to the
+   "polluter pays" principle.
