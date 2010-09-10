@@ -1,3 +1,7 @@
+NOTE: This FAQ is a simplified explanation and not legally binding in
+its details. See the license text itself for precise details.
+
+
 Who owns the MML?
 
 The owner, as far as copyright is concerned, of the MML is the SUM
@@ -12,12 +16,12 @@ Who can use the MML?
 
 Anybody can use the MML for any purpose whatsoever without any
 restriction nor obligation, as long as "use" does not include
-redistributing (giving a copy) of the MML, or any article using the
-MML, to any third party.
+redistributing (giving a copy) of (part of) the MML, nor any article
+using the MML, to any third party.
 
 "Using" the MML typically entails using definitions / theorems /
 schemas / notations / ... from the MML to write new proofs, or to
-modify definitions / proofs / ... in the MML.
+add, delete or modify definitions / proofs / ... in the MML.
 
 
 What do I have to do if I want to redistribute the MML, or part
@@ -29,8 +33,9 @@ redistribute. You may not forbid other people to exercise the rights
 given to them by the SUM.
 
 
-What do I have to do if I want to redistribute the MML, or part
-thereof, modified or augmented?
+What do I have to do if I want to redistribute (part of) the MML,
+modified or augmented, or an article that invokes (a) theorem(s) /
+notation(s) / scheme(s) / ... from the MML?
 
 1) Add to the header of the file:
 
@@ -59,7 +64,7 @@ What do I have to do if I want my enhancements to go into the
    If you live in France, sign the FLA again even if you did so in the
    past.
 
-2) Update the copyright line to include the current year. E.g. for
+2) Update the SUM copyright line to include the current year. E.g. for
    modifications you did in 2010, change
 
    Copyright © 1989-1995 Association of Mizar Users
@@ -85,11 +90,58 @@ What do I have to do if I want my enhancements to go into the
    Copyright © 2010 Association of Mizar Users
                          (Stowarzyszenie Uzytkownikow Mizara, Białystok, Poland).
 
-3) Send the FLA, along with your enhancements to the MML, to the Mizar
-   project.
+3) Send the signed FLA, along with your enhancements to the MML, to
+   the Mizar project.
 
 
-Can I write and distribute a program that has the MML inside (as a
-parse tree, as a memory dump, ...) and have that TODO non-free?
+Can I write a program that uses the MML?
 
-TODO: no, unless program is GPL/CC-BY-SA itself.
+Yes, you can. However, if you wish to *distribute* this program,
+please observe the following: no restriction is put on your program as
+long as it does not contain (part of) the MML itself. Your program can
+use the MML as data. E.g. you can write a Mizar implementation, a
+proof transformer / converter, ... In this case, no restriction is put
+on your program. However, the result of running your program over the
+MML (e.g. proofs converted to Isar or HOL Light, beautified proofs,
+...) is still covered by the SUM copyright and subject to the same
+permissions and conditions as the original MML.
+
+If (part of) the MML ends up in your program itself, even in another
+shape than text files (e.g. as a parse tree or memory dump that is in
+the executable file), then your whole program needs to be released
+under the GNU GPL, or a license compatible with it (e.g. 2-clause BSD,
+X11/MIT, ...). See
+http://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses
+
+A good rule of thumb is: If
+
+ - your program compiles and links completely without the build
+   process using (part of) the MML (in any shape) at all;
+
+ - the compiled program is byte-to-byte identical to the compilation
+   in the presence of the MML;
+
+ - the compiled program is independently useful (for example, it would
+   be useful on an article written in the Mizar language that does not
+   use the MML);
+
+then there is probably no restriction on your program. Your program
+can e.g. use the MML in its automated test-suite: when you run the
+test-suite, your program is already fully compiled.
+
+Obviously, if you distribute the MML along with your program, you
+still have to obey the conditions for the MML.
+
+
+I want to do something not allowed by the license.
+
+Get in touch with the SUM, explaining what you want to do and why you
+cannot do it under the terms of the GNU GPL or CC-BY-SA.
+
+If your project advances the state of art of science ands its broad
+availability to humankind, you may get permission from the SUM.
+
+If you wish to commercially exploit the MML, the SUM may be willing to
+sell you a license that fits your needs. E.g. if you want to integrate
+the MML into an interactive exercise system for mathematics system and
+you sell (access to) this system.
