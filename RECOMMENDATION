@@ -5,6 +5,10 @@ Raw recommendation:
 
  - Future contributors should sign the attached Mizar_FLA.{tex,pdf}
 
+   Also contributors that have already signed the old copyright
+   assignment form should transition to the new agreement, e.g. on the
+   occasion of a new contribution by them.
+
  - The MML should be dual-licensed under the GNU GPL v3 or later
    and CC BY-SA v3 or later.
 
@@ -35,6 +39,9 @@ Raw recommendation:
    such as vocabularies, notations, constructors, registrations,
    requirements, definitions, theorems or schemes) is an "adaptation" of
    article B.
+
+ - The files COPYING.interpretation, COPYING.GPL and COPYING.CC-BY-SA
+   should be placed in the root directory of the MML distribution.
 
  - As we ask for copyright assignment to the SUM of contributions, it
    is important that the SUM be seen as trusted by the community. An
