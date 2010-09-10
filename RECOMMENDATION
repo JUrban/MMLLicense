@@ -43,6 +43,12 @@ Raw recommendation:
  - The files COPYING.interpretation, COPYING.GPL and COPYING.CC-BY-SA
    should be placed in the root directory of the MML distribution.
 
+ - The SUM should keep track of who contributed which part of which
+   file. This can e.g. be implemented by using a version control
+   system that supports a command similar to git's "blame" or
+   Subversion's "annotate", and mentioning the original contributor in
+   the commit message.
+
  - As we ask for copyright assignment to the SUM of contributions, it
    is important that the SUM be seen as trusted by the community. An
    open organisation, that contributors can think of as "us" as
