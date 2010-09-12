@@ -1,15 +1,14 @@
-The licensing committee for the Mizar Mathematical Library makes the
-following recommendations:
+The licensing committee for the Mizar Mathematical Library:
 
-Raw recommendation:
-
- - Future contributors should sign the attached Mizar_FLA.{tex,pdf}
+ - RECOMMENDS:
+   Future contributors should sign the attached Mizar_FLA.{tex,pdf}
 
    Also contributors that have already signed the old copyright
    assignment form should transition to the new agreement, e.g. on the
    occasion of a new contribution by them.
 
- - The MML should be dual-licensed under the GNU GPL v3 or later
+ - RECOMMENDS:
+   The MML should be dual-licensed under the GNU GPL v3 or later
    and CC BY-SA v3 or later.
 
    Each file should have as a header (with the years adapted, of
@@ -26,7 +25,8 @@ Raw recommendation:
    licenses, or see http://www.gnu.org/licenses/gpl.html and
    http://creativecommons.org/licenses/by-sa/3.0/
 
- - The file COPYING.interpretation shall contain the following text:
+ - RECOMMENDS:
+   The file COPYING.interpretation shall contain the following text:
 
    For the purposes of the GNU GPL, it is understood that an article A
    using another article B (by means of environment commands such as
@@ -40,16 +40,19 @@ Raw recommendation:
    requirements, definitions, theorems or schemes) is an "adaptation" of
    article B.
 
- - The files COPYING.interpretation, COPYING.GPL and COPYING.CC-BY-SA
+ - RECOMMENDS:
+   The files COPYING.interpretation, COPYING.GPL and COPYING.CC-BY-SA
    should be placed in the root directory of the MML distribution.
 
- - The SUM should keep track of who contributed which part of which
+ - RECOMMENDS:
+   The SUM should keep track of who contributed which part of which
    file. This can e.g. be implemented by using a version control
    system that supports a command similar to git's "blame" or
    Subversion's "annotate", and mentioning the original contributor in
    the commit message.
 
- - As we ask for copyright assignment to the SUM of contributions, it
+ - COMMENTS:
+   As we ask for copyright assignment to the SUM of contributions, it
    is important that the SUM be seen as trusted by the community. An
    open organisation, that contributors can think of as "us" as
    opposed to "them", will tend to be much more trusted by the
@@ -68,8 +71,13 @@ Raw recommendation:
      and voting on important matters should be easy,
      e.g. internet-based.
 
+ - PROPOSES:
+   The licensing committee proposes to become a standing committee,
+   and to stay at the disposal of SUM and the community
+   for handling any future issues related to licensing, copyright, etc.
 
-Explanation:
+
+EXPLANATION FOR RECOMMENDATIONS:
 
  - The Mizar project should keep its current policy of copyright
    assignment to the Association of Mizar Users (Stowarzyszenie
