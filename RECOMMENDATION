@@ -47,12 +47,13 @@ The licensing committee for the Mizar Mathematical Library:
    The files COPYING.interpretation, COPYING.GPL and COPYING.CC-BY-SA
    should be placed in the root directory of the MML distribution.
 
- - RECOMMENDS:
-   The SUM should keep track of who contributed which part of which
-   file. This can e.g. be implemented by using a version control
-   system that supports a command similar to git's "blame" or
+ - RECOMMENDS: The SUM should keep track of who contributed which part
+   of which file. This can e.g. be implemented by using a version
+   control system that supports a command similar to git's "blame" or
    Subversion's "annotate", and mentioning the original contributor in
-   the commit message.
+   the commit message. The enclosed script git-authors.pl (also at
+   http://github.com/JUrban/MMLLicense/raw/master/git-authors.pl)
+   creates such information from a git repository.
 
  - COMMENTS:
    As we ask for copyright assignment to the SUM of contributions, it
@@ -86,8 +87,17 @@ EXPLANATION FOR RECOMMENDATIONS:
    assignment to the Association of Mizar Users (Stowarzyszenie
    Uzytkownikow Mizara, SUM) for contributions to the MML.
 
-   This is mainly to allow the license to easily change if it become
-   useful in the future.
+   This is mainly to allow the license to be easily changed if it is
+   needed or useful in the future. The committee has discussed several
+   lincensing options, and consulted other people and the Software
+   Freedom Foundation. We think that the world of licenses is
+   developing, the territory of formal mathematics is unexplored (is
+   it code or text?), and similar projects (Isabelle, Coq, PlanetMath)
+   all have their peculiar licensing policies (making it hard to
+   optimize the licensing at least for possible translations between
+   projects). All this can change in the future, and only if the
+   copyright is centralized (owned by SUM), it will be feasible to
+   suitably change the licensing.
 
    However, we recommend that the copyright assignment be linked to a
    pledge of the SUM to maintain free / open source licensing of the
@@ -111,6 +121,24 @@ EXPLANATION FOR RECOMMENDATIONS:
    * It protects the community / humanity from a potential future
      infiltrated SUM; if the SUM "misbehaves" gravely 50 years from
      now, the MML is essentially handed back to the community.
+
+   The copyright assignment allows parallel (typically commercial)
+   licensing, but it is restricted to cases when "AMU considers it
+   beneficial for progress in science and technology, and the AMU's
+   profit is used for further support of its goals". There are two
+   explanations to this:
+
+   * We want to allow serious (research) companies to base their work
+     on Mizar. For example, the recent verification of the L4
+     operating system done in Isabelle has not been fully published,
+     and it may serve as commercial basis for a NICTA start-up.
+
+   * If we provide alternative licensing to somebody, it is a serious
+     (possibly money-making) decision done over the work of Mizar
+     contributors. We want to re-assure the Mizar contributors that it
+     will be done only in cases that benefit progress in science and
+     technology, and the profit will be used for further support of
+     formal mathematics.
 
  - The MML should be dual-licensed under the GNU GPL v3 or later
    and CC BY-SA v3 or later.
