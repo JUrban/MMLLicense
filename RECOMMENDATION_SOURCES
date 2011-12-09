@@ -1,0 +1,106 @@
+The SUM licensing committee:
+
+ - RECOMMENDS:
+
+   Future contributors to the Mizar code base should sign the attached
+   Mizar_FLA.{tex,pdf}. This copyright assignment was modified to
+   cover not just the "Articles", but also the "Software", and it can
+   now be used to assign both kinds of work to SUM.
+
+
+ - RECOMMENDS:
+
+   To start gradual public release of the Mizar source files, starting
+   for example with the new Mizar parser and related files. Mizar
+   developers can gradually add more parts of the Mizar sources to
+   the public release, as they consider them fit for public eyes.
+
+
+ - RECOMMENDS:
+
+   The publicly released Mizar software should be licensed under the
+   GNU GPL v3 or later.
+
+   Each public source file should have as a header (with the years adapted, of
+   course):
+
+   Copyright © 1989-2010 Association of Mizar Users
+                         (Stowarzyszenie Uzytkownikow Mizara, Białystok, Poland).
+   This code can be distributed under the GNU General Public Licence
+   version 3.0 or later. See COPYING.GPL for the full text of this
+   license, or see http://www.gnu.org/licenses/gpl.html .
+
+
+   The file COPYING.GPL should be placed in the root directory of the
+   public Mizar sources distribution.
+
+
+
+ - RECOMMENDS: The SUM should keep track of who contributed which part
+   of which file. This can e.g. be implemented by using a version
+   control system that supports a command similar to git's "blame" or
+   Subversion's "annotate", and mentioning the original contributor in
+   the commit message. The enclosed script git-authors.pl (also at
+   http://github.com/JUrban/MMLLicense/raw/master/git-authors.pl)
+   creates such information from a git repository.
+
+   The changes to the public files in the Mizar CVS can be mirrored in
+   some public repository.
+
+
+EXPLANATION FOR RECOMMENDATIONS:
+
+ - The Mizar project should keep its current policy of copyright
+   assignment to the Association of Mizar Users (Stowarzyszenie
+   Uzytkownikow Mizara, SUM) for contributions to the sources code.
+
+   This is mainly to allow the license to be easily changed if it is
+   needed or useful in the future.  We think that the world of
+   licenses is developing, and only if the copyright is centralized
+   (owned by SUM), it will be feasible to suitably change the
+   licensing.
+
+   However, we recommend that the copyright assignment be linked to a
+   pledge of the SUM to maintain free / open source licensing of the
+   code forever in the future. This pledge is not meant to forbid the
+   SUM to sell commercial licenses as an alternative for people that
+   do not want to obey the free / open source license.
+
+   To that effect, we recommend the attached "Mizar_FLA.{tex,pdf}" to
+   become the standard copyright assignment agreement that
+   contributors sign. It is adapted from one made by real lawyers for
+   the Free Software Foundation Europe, and meant for broad
+   applicability in European jurisdictions. As such, we believe it
+   will be good for the SUM's Polish jurisdiction.
+
+   The link to free / open source license serves two related purposes:
+
+   * It reassures the contributors that their contribution will be
+     available for free study, use, etc by humankind (the ultimate
+     purpose of science).
+
+   * It protects the community / humanity from a potential future
+     infiltrated SUM; if the SUM "misbehaves" gravely 50 years from
+     now, the software is essentially handed back to the community.
+
+   The copyright assignment allows parallel (typically commercial)
+   licensing, but it is restricted to cases when "AMU considers it
+   beneficial for progress in science and technology, and the AMU's
+   profit is used for further support of its goals". There are two
+   explanations to this:
+
+   * We want to allow serious (research) companies to base their work
+     on Mizar. For example, the recent verification of the L4
+     operating system done in Isabelle has not been fully published,
+     and it may serve as commercial basis for a NICTA start-up.
+
+   * If we provide alternative licensing to somebody, it is a serious
+     (possibly money-making) decision done over the work of Mizar
+     contributors. We want to re-assure the Mizar contributors that it
+     will be done only in cases that benefit progress in science and
+     technology, and the profit will be used for further support of
+     formal mathematics.
+
+ - The MML should be licensed under the GNU GPL v3 or later, GNU
+   GPL is the license ordinarily used for free / open code.
+
